@@ -1,0 +1,107 @@
+body {
+    background-color: #005c39;
+  font-family:"Arial", Helvetica;
+}
+ .Signup-box-1{
+  width: 360px;
+  height: 710px;
+  margin: auto;
+  background-color: #FFFFFF;
+  border-radius: 3px;
+ }
+.Login-box{
+width: 360px;
+height: 300px;
+margin: auto;
+background-color: white;
+border-radius:3px;
+
+}
+h1{
+  text-align: center;
+  padding-top: 15px;
+}
+h4{
+  text-align: center;
+}
+form{
+  width: 300px;
+  margin-left:20px;
+}
+form label{
+display: flex;
+  margin-top: 20px;
+  font-size:14px;
+}
+form input{
+width: 100%;
+  padding:7px;
+  border: none;
+  border: 1px solid #005c39;
+  border-radius: 6px;
+  outline: none;
+}
+favourite colour-2{
+  width: 10%;
+  padding: 2px;
+  border: none;
+  border: 1px solid #005c39;
+}
+
+/*    */
+.sub{
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: 1px;
+  border-radius: 6px;
+  border-color: #005c39;
+   background-color: #005c39;
+     font-size:15px;
+   color: white;
+}
+p{
+  text-align:center;
+  padding-top:20px;
+  font-size:14px;
+}
+.para-3{
+ text-align:center;
+  color: white;
+margin-top:-10px;
+}
+.para-3 a{
+  color: #2DD276;
+}
+
+/*success  */
+.success{
+    background-color:#005c39;
+    background-image: none;
+}
+
+.success main{
+    width:100%;
+    max-width: 28%;
+    margin:auto;
+    background-color:white;
+    margin-top: 80px;
+    border-radius: 7px;
+}
+
+.success img{
+  height:70px;
+    width:auto;
+    display:block;
+    margin:auto;
+}
+
+.success h2{
+    text-align:center;
+}
+
+.success p{
+    text-align:center;
+    padding-bottom:36px;
+    padding-top:7px;
+}
