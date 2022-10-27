@@ -1,0 +1,606 @@
+*{
+    margin: 0;
+}
+
+.container {
+    color: white;
+    height: auto;
+    grid-gap: 10px;
+}
+
+
+
+
+/* Styling the Navigation Bar and Menu Items */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #00d5ff;
+    width: auto;
+    height: 100px;
+    text-align: center;
+    margin: 0px;
+    font-size: 10px;
+}
+
+
+header {
+    background-color: #00d5ff;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column: span 6;
+}
+
+header ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 8px;
+    border-radius: 25px;    
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header ul li a:hover {
+    background-color: #ff00f7;
+    padding: 10px 8px;
+    border-radius: 25px;
+    font-size: 10px;
+}
+
+header ul li a:active {
+    background-color: ##ff00f7;
+    padding: 10px 8px;
+    border-radius: 25px;
+    font-size: 10px;
+}
+
+
+.checkbtn {
+    float: right;
+    color: ##ff00f7;
+    font-size: 30px;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: n;
+}
+
+
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: -5px;  
+}
+
+.logo span {
+    color: black;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.logo a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+#index,#about,#project, #services,#register, #login, #contact {
+    background-color: black;
+    border-radius: 25px;
+}
+
+
+
+
+
+
+
+/* Styling the Main */
+
+.about {
+    height: 700px;
+    width: auto;
+    background-image: url(Jindu.jpg.jpeg) ;
+    background-size: cover;
+    background-position: center;
+  margin-bottom: -100px;
+    padding: 10%;
+}
+.abouttxtbg {
+    background-color: rgba(20, 19, 19, 0.301);
+    width: cover;
+  text-align: center;
+}
+
+.about h1 {
+    margin: 20px 0px 20px;
+    font-size: 60px;
+}
+
+.about h3 {
+    margin-bottom: 50px;
+    font-size: 50px;    
+}
+
+.about h4 {
+    margin-bottom: 5px;
+    font-size: 30px;    
+}
+
+.about span {
+    color: #00d5ff;    
+}
+
+.about p {
+    max-width: cover;
+  font-size: 30px; 
+}
+.headerreg, .headerlog, .headercon {
+    height: 25vh;
+    width: 5%;
+    background-color: black;
+}
+
+
+
+
+/* Styling My Hobbies */
+
+.myhobbies {
+    width: auto;
+    height: auto;
+  background-color: black;
+    color: black;
+    grid-gap: 10px;
+  margin-top: 50px;
+    margin-bottom: -20px;
+}
+
+#hob {
+    color: #00d5ff;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.myhobbies h2 {
+    width: auto;
+  height: auto;
+    margin: 100px auto;
+}
+
+.texts {
+    display: grid;
+    grid-auto-flow: row; 
+    width: min(90%, 75rem);
+    margin: 10px auto;
+}
+
+
+h5 {
+    font-size: 30px;
+    margin: 10px 0px 0px;
+    text-align: center;
+}
+
+.para {
+    background-color: #00d5ff;
+    margin: 15px 10px 15px;
+    border-radius: 30px;
+    justify-content: space-around;
+}
+
+.para p {
+    margin: 25px;
+    font-size: 16px;
+    justify-content: center;
+}
+
+/* Styling Priorities and Skills */
+
+.priorities {
+    display: block;
+    background-color: black;
+    color: black;
+    width: auto;
+    height: auto;
+    margin-bottom: -20px;
+    box-sizing: border-box;
+}
+
+.priorities h2 {
+    color: #00d5ff;
+    font-size: 50px;
+    width: auto;
+    height: fit-content;
+    padding: 100px 0;
+    text-align: center;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.priorities ul li {
+    list-style-type: none;
+    font-size: 16px;
+    margin-right: 30px;
+}
+
+.skills {
+    display: block;
+    background-color: black;
+    color: black;
+    width: auto;
+    height: auto;
+    margin-bottom: 100px;
+    box-sizing: border-box;
+}
+.skills h2 {
+    color: #00d5ff;
+    font-size: 50px;
+    width: auto;
+    height: fit-content;
+    padding: 100px 0;
+    text-align: center;
+    font-family: 'Big Shoulders Display', cursive;
+}
+.skills ol li {
+    list-style-type: none;
+    margin-right: 30px;
+    font-size: 16px;
+  
+}
+
+.image {
+    display: grid;
+    grid-auto-flow: row; 
+    width: auto;
+    height: 700px;
+    background-color: black;
+    justify-content: center;
+}
+img {
+    height: 350px;
+    width: fit-content;
+    margin: 100px 0px -400px 0px;
+}
+#button {
+    background-color: white;
+    color: #00d5ff;
+    text-decoration: none;
+    padding: 20px 25px;
+    font-weight: bold;
+    border: 2px solid transparent;
+    border-radius: 50px;
+    max-height: 70px;
+    min-height: 20px;
+    width: 250px;
+    text-align: center;
+    font-size: 25px;
+    margin: 250px 10px -50px 30px;
+    box-sizing: border-box;
+}
+#button:hover {
+    background-color: #00d5ff;
+    color: white;
+    font-weight: bold;
+}
+
+/* Styling the Footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    width: auto;
+    background-color: #00d5ff;
+    height: 100px;
+    text-align: center;
+    margin: -100px 0px 0px;
+}
+
+
+.footermenu {
+    display: block;
+    text-align: center;
+}
+.footermenu h6 {
+    display: block;
+    text-align: center;
+}
+
+footer ul {
+    padding: 0px 10px 0px 0px;
+    font-size: 20px;
+}
+
+footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+    border-radius: 50px;
+    
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+footer ul li a:hover {
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.github a:hover {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border-radius: 50px;
+}
+.linkedin a:hover {
+    background-color: black;
+    color: rgba(96, 153, 238, 0.884);
+    padding: 5px;
+    border-radius: 50px;
+}
+.twitter a:hover {
+    background-color: black;
+    color: rgba(53, 123, 226, 0.884);
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.behance a:hover {
+    background-color: black;
+    color: rgba(53, 123, 226, 0.884);
+    padding: 5px;
+    border-radius: 50px;
+}
+
+.footerlogo {
+    display: inline-block;
+    font-size: 20px;
+    color: white;
+    letter-spacing: 3px;
+}
+.logospan {
+    font-size: 20px;
+    color: white;
+    letter-spacing: -3px;
+}
+
+.footerlogo span {
+    color: black;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.footerlogo a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+
+
+
+/* //Registration and Login Forms// */
+
+.form {
+    background-color: black;
+    height: 170vh;
+}
+
+.wrapper {
+	background-color: white;
+	width: 80%;
+	padding: 25px 25px;
+	margin: 0px auto 100px;
+}
+
+
+.wrapper h2{
+	color: #00d5ff;
+	font-size: 24px;
+	padding: 10px;
+	margin-bottom: 20px;
+	text-align: center;
+	border: 1px dotted black;
+}
+
+.wrapper h5 {
+	
+	color: black;
+    display: inline;
+    font-size: small;
+}
+
+.name {
+	color: #00d5ff;
+}
+
+.input-group {
+	margin-bottom: 10px;
+	width: 100%;
+	display: inline;
+	position: relative;
+	padding: 5px 0 20px 0;
+}
+
+.input-box {
+    display: inline;
+}
+
+label {
+    color: #00d5ff;
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.gender {
+    height: 30px;
+}
+
+button {
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    margin: 20px 0px 10px;
+}
+
+button:hover {
+    background-color: #ff00c8;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+::placeholder {
+    color: #00d5ff;
+    text-align: justify;
+}
+
+.personal, .login, .location, .name, .email {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 3px;
+}
+
+.state, .province, .password {
+    height: 30px;
+    width: 49.7%;
+    margin-bottom: 3px;
+}
+
+.dob {
+    height: 30px;
+    width: 33%;
+    margin-bottom: 3px;
+}
+
+#msg {
+    height: 300px;
+    min-width: 100%;
+}
+
+
+
+/* RESPONSIVENESS */
+
+
+@media (min-width: 1000px) {
+    .wrapper {
+        width: 30%;
+    }
+    
+}
+
+@media (min-width: 750px) {
+    .wrapper {
+        width: 50%;
+    }
+
+    header {
+        font-size: 20px;
+        padding-left: -10%;
+        padding-right: -10%;
+    }
+
+    header ul li a:hover {
+        font-size: 20px;
+    }
+    
+    .texts {
+        grid-auto-flow: column ;
+    }    
+    
+    .image {
+        grid-auto-flow: column ;
+    }
+}
+
+
+@media (min-width: 550px) {
+    header {
+        font-size: 15px;
+    }
+    
+    header ul li a:hover {
+        font-size: 15px;
+    }
+
+/* stylling the about me .html section */
+.img-2{
+  width: 300px;
+  height: 250px;
+    border: 1px solid black;
+  background-color: silver;
+  margin-right: 1em;
+  object-fit: none;
+   }
+/* styling contact me */
+
+
+ }
+body {
+    background-color: #00d5ff;
+  font-family: "arial";
+}
+.contactme-box{
+width: 360px;
+height: 600px;
+margin: auto;
+background-color: black;
+border-radius:3px;
+/* styling my project */
+  
+}
+h3{
+  text-align: center;
+  padding-top: 15px;
+  color: #ffffff;
+  
+}
+h4{
+  text-align: center;
+  color: #ffffff;
+  padding-bottom: -30px;
+}
+form{
+  width: 300px;
+  margin-left:20px;
+}
+form label{
+display: flex;
+  margin-top: 20px;
+  font-size:14px;
+  
+}
+form input{
+width: 100%;
+  padding:7px;
+  border: none;
+  border: 1px solid #00d5ff;
+  border-radius: 6px;
+  outline: none;
+}
+input[type="button"]{
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: 1px;
+  border-color: #00d5ff;
+   background-color: #00d5ff;
+  color: #ffffff;
+  font-size:15px;
+}
+header li {
